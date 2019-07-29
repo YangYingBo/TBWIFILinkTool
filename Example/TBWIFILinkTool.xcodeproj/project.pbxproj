@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		02FBCC1A5942E49774B96C5D /* Pods-TBWIFILinkTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Example/Pods-TBWIFILinkTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		29A8BB93058AE8F909F2BDD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		29A8BB93058AE8F909F2BDD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2AE9B98835DC2CED28F3A64A /* Pods_TBWIFILinkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBWIFILinkTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC3D3B71B02E30605C6FD8F /* Pods-TBWIFILinkTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Tests/Pods-TBWIFILinkTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TBWIFILinkTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBWIFILinkTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		6D6053275CED4D8B967D4C97 /* Pods-TBWIFILinkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Example.release.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Example/Pods-TBWIFILinkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FCCB9353EC5B9D1E65CCA6 /* Pods_TBWIFILinkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBWIFILinkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8488C3C1AEA0A359A2DDCE30 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TBWIFILinkTool.podspec; path = ../TBWIFILinkTool.podspec; sourceTree = "<group>"; };
+		8488C3C1AEA0A359A2DDCE30 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBWIFILinkTool.podspec; path = ../TBWIFILinkTool.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3FCB4DB58FDB48057E48282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3FCB4DB58FDB48057E48282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDED299C2500E356856F71C8 /* Pods-TBWIFILinkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Tests/Pods-TBWIFILinkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				BDED299C2500E356856F71C8 /* Pods-TBWIFILinkTool_Tests.debug.xcconfig */,
 				2EC3D3B71B02E30605C6FD8F /* Pods-TBWIFILinkTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YangYingBo;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5BAR54BY6N;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,13 +498,18 @@
 			baseConfigurationReference = 02FBCC1A5942E49774B96C5D /* Pods-TBWIFILinkTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5BAR54BY6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBWIFILinkTool/TBWIFILinkTool-Prefix.pch";
 				INFOPLIST_FILE = "TBWIFILinkTool/TBWIFILinkTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szacs.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = connect_test_dev;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +519,18 @@
 			baseConfigurationReference = 6D6053275CED4D8B967D4C97 /* Pods-TBWIFILinkTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5BAR54BY6N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TBWIFILinkTool/TBWIFILinkTool-Prefix.pch";
 				INFOPLIST_FILE = "TBWIFILinkTool/TBWIFILinkTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szacs.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = connect_test_dev;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
