@@ -49,7 +49,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* TBWIFILinkTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBWIFILinkTool-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* TBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* TBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBViewController.m; sourceTree = "<group>"; };
@@ -63,8 +62,9 @@
 		6D6053275CED4D8B967D4C97 /* Pods-TBWIFILinkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Example.release.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Example/Pods-TBWIFILinkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FCCB9353EC5B9D1E65CCA6 /* Pods_TBWIFILinkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBWIFILinkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8488C3C1AEA0A359A2DDCE30 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBWIFILinkTool.podspec; path = ../TBWIFILinkTool.podspec; sourceTree = "<group>"; };
+		8488C3C1AEA0A359A2DDCE30 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TBWIFILinkTool.podspec; path = ../TBWIFILinkTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914FF91822EEDA0300F44EB0 /* TBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
 		A3FCB4DB58FDB48057E48282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BDED299C2500E356856F71C8 /* Pods-TBWIFILinkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBWIFILinkTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TBWIFILinkTool_Tests/Pods-TBWIFILinkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,7 +143,7 @@
 		6003F593195388D20070C39A /* Example for TBWIFILinkTool */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* TBAppDelegate.h */,
+				914FF91822EEDA0300F44EB0 /* TBAppDelegate.h */,
 				6003F59D195388D20070C39A /* TBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* TBViewController.h */,

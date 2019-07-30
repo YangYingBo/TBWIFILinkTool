@@ -31,12 +31,12 @@ TODO: 使用EasyLink和ESPTouch给不同的WiFi模块配置WiFi的工具类.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TBWIFILinkTool/Classes/**/*'
-  
+  s.vendored_libraries  = 'TBWIFILinkTool/Classes/**/*.a'
   # s.resource_bundles = {
   #   'TBWIFILinkTool' => ['TBWIFILinkTool/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

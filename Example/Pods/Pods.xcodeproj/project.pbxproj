@@ -7,16 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015C85E7A2BDF0469567A12E871B90DF /* ESPAES.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F7885A834CC580CA124F09085C0EA6 /* ESPAES.m */; };
+		05E8CB586FCF0E9A49E0E346C04ACCC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		09BB72F8D3828DD306E1E9546E574450 /* ESPTouchTaskParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDEDDCA1447B4029CE1717A0B423D90 /* ESPTouchTaskParameter.m */; };
+		0AD5429DDAF6B094C0065B6BE695CD55 /* ESP_WifiUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 624E7ADAE48F64A252F3EF8435FE2BBB /* ESP_WifiUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B00E46A67B8320422A9BBFF0F05076F /* ESPDatumCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C65E8BA1964B290E257E9BC6F893217 /* ESPDatumCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC822438B1348CF792151F34F0CB0E6 /* ESP_WifiUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2A2B6746DD109872F5C75428479F /* ESP_WifiUtil.m */; };
 		0CD2D6E15D8F2C0B09B5857C83DC02B6 /* Pods-TBWIFILinkTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8478C77E144E41C2154A1384951C2B83 /* Pods-TBWIFILinkTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		122EA61D9DB729FBD4D1061AF4FAA454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		100493799414F38DC4DF172842910CBA /* ESPUDPSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC78175FED237B19424E53DF9A563A4F /* ESPUDPSocketServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15AD9371B09B29AEC58C3206D7041FC3 /* ESPDatumCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD0B2F50E8742FA7473FB3CD6B2D560 /* ESPDatumCode.m */; };
+		18BB639BADA88A6482FCBD0D9D77197F /* TBWIFILinkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1C824FCD4172B910C7207678D956B /* TBWIFILinkTool.m */; };
+		1A74AF58EFAB8B7EC135E0355A1A82B7 /* ESP_NetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E97444ECC6FA8D51F6775A86E26CE52B /* ESP_NetUtil.m */; };
+		1D28326B7DFDB60AF164CEA7DF7496DE /* TBWIFILinkTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA9EB3573AEC04F8FB6B2C7368D1BF3 /* TBWIFILinkTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E47E82AB4638D1DDD644780B3F60EED /* ESPTouchDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD210F1CC2E5899914D61841B55D20F /* ESPTouchDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D60FC24E602FC8CCC63509CEF837448 /* ESPUDPSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2D1658AA7FFB68E476747C59288A6 /* ESPUDPSocketClient.m */; };
+		39FB83FE4B96F00F538D717A547F5ECB /* ESPGuideCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B275FC7A2FB12FA24842C42E4AF4F14 /* ESPGuideCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA637307B24537E1C7FCE276118EB09 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 564A67A11566E124F3EEF63EE230C4DC /* route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442DEF7DAD8570C5B026CAE594AEC056 /* ESPTouchTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC6BEA6C7521FAB27AF974AC5203732 /* ESPTouchTask.m */; };
 		54C75BDBD37718115AB554315C5B6344 /* Pods-TBWIFILinkTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AAA104A6C0DE8DB0D90D5F926AD635C /* Pods-TBWIFILinkTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57518B2103E89C87930C5476F7DB8A6C /* TBWIFILinkTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BBDBECF316179AC9CDF65846DCD236 /* TBWIFILinkTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E0EC15B764159348523FCA14256E466 /* ESPAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B148225AA17378D13D71E41305D75A4 /* ESPAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62783D82F3102B88DB397C5B1D31D6B0 /* ESPTouchTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D52AD6E200EA1BCE24DD915AED7A77E /* ESPTouchTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63D37F80783CAC5BB6B3775F957FB064 /* ESP_ByteUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 039D20ACC69077CAF239F290091EED5A /* ESP_ByteUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A838C96F74D483733E2AE5294BB188D /* ESPTouchResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6529383F3A8D5300016DB8683B47D6A5 /* ESPTouchResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7551922A116D70C2DB3A15C454107C06 /* ESPVersionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FC60886DC1EE737916FEB808C3AA0A /* ESPVersionMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BC4F354C5511DB99D19D6F84B2CC6E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8F28D97ECA1E3A7275AE37BDBEFE650A /* ESPDataCode.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D6FF1ED5BF34BFA33F07E7763D064 /* ESPDataCode.m */; };
+		91DE0387CE88B5253056632C4D6A2934 /* TBWIFILinkTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D77A81A8819D1BF56181C813D4B089 /* TBWIFILinkTool-dummy.m */; };
+		928245696C0701698D4EA492DFF4FBF5 /* ESPDataCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 493A3E7FE48395A88DA5016EC3E233D1 /* ESPDataCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A661E03EA44175B8D0B9A364875CC9B0 /* ESPUDPSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3617BA5E3B632F4D23732127557AC9EF /* ESPUDPSocketClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC05D9FD2F25C1C3F5A20C0AE66E5A53 /* ESPTouchGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1015679839B3A0F23AE405C161D3FAF2 /* ESPTouchGenerator.m */; };
 		AFEBB2285C808EBD3CCBB841637DEEAD /* Pods-TBWIFILinkTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8426DD91D71CAECB992C98E3A541F2 /* Pods-TBWIFILinkTool_Example-dummy.m */; };
+		B45D92A4D70744ACA32B54F565B417FA /* ESPTouchGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 347ACE49EFE24D5F783E36C00AD329A0 /* ESPTouchGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F3BA600A5A1C41457342505A4ADE2E /* ESP_CRC8.m in Sources */ = {isa = PBXBuildFile; fileRef = 3940D3FB324A18F42A773FD82D4A59D6 /* ESP_CRC8.m */; };
 		B5653A523E80065C167B772E4DE121FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BF23E337D3E887A90A0ACCFB6CCDAD0C /* EasyLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1916A96094BB8FEC9BE786ED9F66B7 /* EasyLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C106A62F99A59D7ABF99CE3C3ADE9AAB /* libEasyLink.a in Sources */ = {isa = PBXBuildFile; fileRef = 8343572B4AB204E4AB7D0B93183ABEDC /* libEasyLink.a */; };
+		C70785B9546716C686E02F2299ED2B73 /* ESP_NetUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ADA20E7C107A8E6BB56756C1CB3127 /* ESP_NetUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7DEBE56BB132691C2182D9D08413BC4 /* Pods-TBWIFILinkTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FFCDA64A3A921E66C4AE914A5F3D51 /* Pods-TBWIFILinkTool_Tests-dummy.m */; };
-		EEAC73A0F7B041AD0F071DBDF637703D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D8BD0A648E65E438EC445EDA2DA4E9 /* ReplaceMe.m */; };
-		FA3F3106B20F0C672B815427105864CF /* TBWIFILinkTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5195C08EBA56E05D1A780315B0EAA9E7 /* TBWIFILinkTool-dummy.m */; };
+		D12DBA24BCBFE8A367F11ADE8F6B4DDC /* ESPTouchTaskParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF9FF425E2E829E8D58EFD311A6E707 /* ESPTouchTaskParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DADC64D0F5C0DBB3F0EE32A4F38D65CE /* TBWIFILinkTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5348ABA2DF5D461578E545413965F0 /* TBWIFILinkTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6815BADE36B775911B2BD8F594990F0 /* ESPGuideCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7479FE15E200644E3640130FEC18B234 /* ESPGuideCode.m */; };
+		E91127D6D36D1F35ACFEA461907B655B /* ESP_ByteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6BE34EE91B69F620BD5C4A650B7310 /* ESP_ByteUtil.m */; };
+		EC83BF3D86CAF319A7D199EF41A918C8 /* ESPTouchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C234482A87C348A8D6B871B96A65B08D /* ESPTouchResult.m */; };
+		F32B64EAC5CAFE4B5B4E01DE072747CA /* ESP_CRC8.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D568F6E807845B0D1F2B9831B4B6D8 /* ESP_CRC8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5C2ED4A2133F5AF3DC0EDD811A346D3 /* ESPUDPSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E48BE132D7490FC1DF2F6725DC735B8A /* ESPUDPSocketServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,46 +71,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039D20ACC69077CAF239F290091EED5A /* ESP_ByteUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESP_ByteUtil.h; sourceTree = "<group>"; };
 		03FF1F8BB294F5059E7671C9A227C275 /* Pods-TBWIFILinkTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBWIFILinkTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0716DBE2D9F2F5405D171057035D5379 /* Pods-TBWIFILinkTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBWIFILinkTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B24E3C3B4CB24F6AD01E7B573A5A650 /* Pods-TBWIFILinkTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBWIFILinkTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0DC017108F32A43F9EA5DF1D73008C49 /* Pods-TBWIFILinkTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBWIFILinkTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		0DC72A062C45B42572DBE2D5DD9161BC /* TBWIFILinkTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBWIFILinkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC72A062C45B42572DBE2D5DD9161BC /* TBWIFILinkTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBWIFILinkTool.framework; path = TBWIFILinkTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCA5D46D9F06C7BE7AB7E24FC6A37AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1015679839B3A0F23AE405C161D3FAF2 /* ESPTouchGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPTouchGenerator.m; sourceTree = "<group>"; };
+		1C65E8BA1964B290E257E9BC6F893217 /* ESPDatumCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPDatumCode.h; sourceTree = "<group>"; };
+		1DC6BEA6C7521FAB27AF974AC5203732 /* ESPTouchTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTask.m; sourceTree = "<group>"; };
 		1FC382035FDE5A51F62EE0E77BC07ACD /* Pods-TBWIFILinkTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBWIFILinkTool_Example.modulemap"; sourceTree = "<group>"; };
-		24D67640A5A807C7F2C1E2CA0AC094C4 /* TBWIFILinkTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBWIFILinkTool-prefix.pch"; sourceTree = "<group>"; };
+		1FD0B2F50E8742FA7473FB3CD6B2D560 /* ESPDatumCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPDatumCode.m; sourceTree = "<group>"; };
+		2B275FC7A2FB12FA24842C42E4AF4F14 /* ESPGuideCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPGuideCode.h; sourceTree = "<group>"; };
 		2BA64C004A8F5F2A732C96E48CD5543A /* Pods-TBWIFILinkTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBWIFILinkTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		347ACE49EFE24D5F783E36C00AD329A0 /* ESPTouchGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPTouchGenerator.h; sourceTree = "<group>"; };
+		35D77A81A8819D1BF56181C813D4B089 /* TBWIFILinkTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBWIFILinkTool-dummy.m"; sourceTree = "<group>"; };
+		3617BA5E3B632F4D23732127557AC9EF /* ESPUDPSocketClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketClient.h; sourceTree = "<group>"; };
+		3940D3FB324A18F42A773FD82D4A59D6 /* ESP_CRC8.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESP_CRC8.m; sourceTree = "<group>"; };
+		3B148225AA17378D13D71E41305D75A4 /* ESPAES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPAES.h; sourceTree = "<group>"; };
+		3B8F2A2B6746DD109872F5C75428479F /* ESP_WifiUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESP_WifiUtil.m; sourceTree = "<group>"; };
 		3E8426DD91D71CAECB992C98E3A541F2 /* Pods-TBWIFILinkTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBWIFILinkTool_Example-dummy.m"; sourceTree = "<group>"; };
 		3EDC82356101733BCBC8B46B357A5C67 /* Pods-TBWIFILinkTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBWIFILinkTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		493A3E7FE48395A88DA5016EC3E233D1 /* ESPDataCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPDataCode.h; sourceTree = "<group>"; };
 		49FFCDA64A3A921E66C4AE914A5F3D51 /* Pods-TBWIFILinkTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBWIFILinkTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		4A5348ABA2DF5D461578E545413965F0 /* TBWIFILinkTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBWIFILinkTool.h; path = TBWIFILinkTool/Classes/TBWIFILinkTool.h; sourceTree = "<group>"; };
 		4AAA104A6C0DE8DB0D90D5F926AD635C /* Pods-TBWIFILinkTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBWIFILinkTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4B0281B6628C4168AC8899FE76DAE018 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TBWIFILinkTool.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		5195C08EBA56E05D1A780315B0EAA9E7 /* TBWIFILinkTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBWIFILinkTool-dummy.m"; sourceTree = "<group>"; };
-		52D8BD0A648E65E438EC445EDA2DA4E9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TBWIFILinkTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		65BB67E432CE10012BA4565C6B199127 /* TBWIFILinkTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBWIFILinkTool.modulemap; sourceTree = "<group>"; };
+		4DD210F1CC2E5899914D61841B55D20F /* ESPTouchDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		51E2D1658AA7FFB68E476747C59288A6 /* ESPUDPSocketClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketClient.m; sourceTree = "<group>"; };
+		54FC60886DC1EE737916FEB808C3AA0A /* ESPVersionMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPVersionMacro.h; sourceTree = "<group>"; };
+		564A67A11566E124F3EEF63EE230C4DC /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		624E7ADAE48F64A252F3EF8435FE2BBB /* ESP_WifiUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESP_WifiUtil.h; sourceTree = "<group>"; };
+		6529383F3A8D5300016DB8683B47D6A5 /* ESPTouchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
 		65E36DAA75E034D8871F4F101C124D22 /* Pods-TBWIFILinkTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBWIFILinkTool_Tests.modulemap"; sourceTree = "<group>"; };
+		6780998846A1C54CFF3C354D85FCDCDB /* TBWIFILinkTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBWIFILinkTool-Info.plist"; sourceTree = "<group>"; };
+		7479FE15E200644E3640130FEC18B234 /* ESPGuideCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPGuideCode.m; sourceTree = "<group>"; };
 		7845129D9537880EB352004EF5F0F3EA /* Pods-TBWIFILinkTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBWIFILinkTool_Example-Info.plist"; sourceTree = "<group>"; };
-		80A8F6364ED95FFEBA861EC3ED3E1140 /* TBWIFILinkTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TBWIFILinkTool-Info.plist"; sourceTree = "<group>"; };
+		7D52AD6E200EA1BCE24DD915AED7A77E /* ESPTouchTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		7E6BE34EE91B69F620BD5C4A650B7310 /* ESP_ByteUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESP_ByteUtil.m; sourceTree = "<group>"; };
+		7FA9EB3573AEC04F8FB6B2C7368D1BF3 /* TBWIFILinkTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBWIFILinkTool-umbrella.h"; sourceTree = "<group>"; };
+		81ADA20E7C107A8E6BB56756C1CB3127 /* ESP_NetUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESP_NetUtil.h; sourceTree = "<group>"; };
+		8343572B4AB204E4AB7D0B93183ABEDC /* libEasyLink.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libEasyLink.a; sourceTree = "<group>"; };
 		8478C77E144E41C2154A1384951C2B83 /* Pods-TBWIFILinkTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TBWIFILinkTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		8644760D4F2F0F95CBAA41895F81FC46 /* TBWIFILinkTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBWIFILinkTool.xcconfig; sourceTree = "<group>"; };
+		8BAA9B93AD2BD5FB9D79D8203E24DD09 /* TBWIFILinkTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TBWIFILinkTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96B91921A82A489EBEA9F6090936263D /* Pods-TBWIFILinkTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBWIFILinkTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E261DB42EEF7C910B3A65A3BFCD0CC1 /* Pods_TBWIFILinkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBWIFILinkTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3D684F83A3B38B03C4D1278FAEF4848 /* Pods_TBWIFILinkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TBWIFILinkTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7BBDBECF316179AC9CDF65846DCD236 /* TBWIFILinkTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBWIFILinkTool-umbrella.h"; sourceTree = "<group>"; };
-		AD4CF323CB341AEFBCD38ADF3AC71AFA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D1916A96094BB8FEC9BE786ED9F66B7 /* EasyLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EasyLink.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E261DB42EEF7C910B3A65A3BFCD0CC1 /* Pods_TBWIFILinkTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBWIFILinkTool_Example.framework; path = "Pods-TBWIFILinkTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D684F83A3B38B03C4D1278FAEF4848 /* Pods_TBWIFILinkTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TBWIFILinkTool_Tests.framework; path = "Pods-TBWIFILinkTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB33A9AA8CBD86C04E04E54CA1225857 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B0B1C824FCD4172B910C7207678D956B /* TBWIFILinkTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBWIFILinkTool.m; path = TBWIFILinkTool/Classes/TBWIFILinkTool.m; sourceTree = "<group>"; };
+		B3E3458E6732E17E4566C03215D49670 /* TBWIFILinkTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBWIFILinkTool-prefix.pch"; sourceTree = "<group>"; };
+		BAF5ADFDA93CECF69E64EA523F632F4B /* TBWIFILinkTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TBWIFILinkTool.modulemap; sourceTree = "<group>"; };
+		BAF9FF425E2E829E8D58EFD311A6E707 /* ESPTouchTaskParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPTouchTaskParameter.h; sourceTree = "<group>"; };
+		BE6EAF0866997E452CBEEB358D682E8A /* TBWIFILinkTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBWIFILinkTool.xcconfig; sourceTree = "<group>"; };
 		C000CD2D0E1D03908551F240326F892A /* Pods-TBWIFILinkTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBWIFILinkTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C16E3B849E84250B5A63232AE13153F3 /* Pods-TBWIFILinkTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBWIFILinkTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CE442DF27A55D6650AEB6822FEE6F939 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C234482A87C348A8D6B871B96A65B08D /* ESPTouchResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPTouchResult.m; sourceTree = "<group>"; };
+		C59D6FF1ED5BF34BFA33F07E7763D064 /* ESPDataCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPDataCode.m; sourceTree = "<group>"; };
+		CC78175FED237B19424E53DF9A563A4F /* ESPUDPSocketServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESPUDPSocketServer.h; sourceTree = "<group>"; };
+		E48BE132D7490FC1DF2F6725DC735B8A /* ESPUDPSocketServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPUDPSocketServer.m; sourceTree = "<group>"; };
+		E97444ECC6FA8D51F6775A86E26CE52B /* ESP_NetUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESP_NetUtil.m; sourceTree = "<group>"; };
+		EFDEDDCA1447B4029CE1717A0B423D90 /* ESPTouchTaskParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPTouchTaskParameter.m; sourceTree = "<group>"; };
+		F7F7885A834CC580CA124F09085C0EA6 /* ESPAES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ESPAES.m; sourceTree = "<group>"; };
+		F8D568F6E807845B0D1F2B9831B4B6D8 /* ESP_CRC8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ESP_CRC8.h; sourceTree = "<group>"; };
 		F95FB5EA195E3C9F3D4FED618F7C228D /* Pods-TBWIFILinkTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBWIFILinkTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		55C3C70E49F6D655C3D5BCFA09F5FF30 /* Frameworks */ = {
+		083D4FD831CCE79C66D1B21CAFF17E7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				122EA61D9DB729FBD4D1061AF4FAA454 /* Foundation.framework in Frameworks */,
+				05E8CB586FCF0E9A49E0E346C04ACCC0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +167,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1062FC94A0C76CC1166E30B735DC3500 /* Development Pods */ = {
+		080F3FC43BE1A66B179830162B60F33E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				274425A0D063A31253FA8897093FABA8 /* TBWIFILinkTool */,
+				A144B97FACD595B101F649FF38FA788E /* TBWIFILinkTool */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0810A1FFA6A64B37CDB9935ACF3C4AFA /* esptouch */ = {
+			isa = PBXGroup;
+			children = (
+				4DD210F1CC2E5899914D61841B55D20F /* ESPTouchDelegate.h */,
+				6529383F3A8D5300016DB8683B47D6A5 /* ESPTouchResult.h */,
+				7D52AD6E200EA1BCE24DD915AED7A77E /* ESPTouchTask.h */,
+			);
+			name = esptouch;
+			path = esptouch;
 			sourceTree = "<group>";
 		};
 		1AEEC1AA49EF37002BA54269653716C5 /* Targets Support Files */ = {
@@ -116,29 +195,62 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		274425A0D063A31253FA8897093FABA8 /* TBWIFILinkTool */ = {
+		26C46B09C963733750C961A2142947EC /* protocol */ = {
 			isa = PBXGroup;
 			children = (
-				52D8BD0A648E65E438EC445EDA2DA4E9 /* ReplaceMe.m */,
-				D430E9145EC05E27B5C44CC75F2177A8 /* Pod */,
-				681E4E866AB6789186CC3E10C88D98CD /* Support Files */,
+				493A3E7FE48395A88DA5016EC3E233D1 /* ESPDataCode.h */,
+				C59D6FF1ED5BF34BFA33F07E7763D064 /* ESPDataCode.m */,
+				1C65E8BA1964B290E257E9BC6F893217 /* ESPDatumCode.h */,
+				1FD0B2F50E8742FA7473FB3CD6B2D560 /* ESPDatumCode.m */,
+				2B275FC7A2FB12FA24842C42E4AF4F14 /* ESPGuideCode.h */,
+				7479FE15E200644E3640130FEC18B234 /* ESPGuideCode.m */,
+				347ACE49EFE24D5F783E36C00AD329A0 /* ESPTouchGenerator.h */,
+				1015679839B3A0F23AE405C161D3FAF2 /* ESPTouchGenerator.m */,
 			);
-			name = TBWIFILinkTool;
-			path = ../..;
+			name = protocol;
+			path = protocol;
 			sourceTree = "<group>";
 		};
-		681E4E866AB6789186CC3E10C88D98CD /* Support Files */ = {
+		2E14F828535EA36CA015C3BB806C478E /* EasyLink */ = {
 			isa = PBXGroup;
 			children = (
-				65BB67E432CE10012BA4565C6B199127 /* TBWIFILinkTool.modulemap */,
-				8644760D4F2F0F95CBAA41895F81FC46 /* TBWIFILinkTool.xcconfig */,
-				5195C08EBA56E05D1A780315B0EAA9E7 /* TBWIFILinkTool-dummy.m */,
-				80A8F6364ED95FFEBA861EC3ED3E1140 /* TBWIFILinkTool-Info.plist */,
-				24D67640A5A807C7F2C1E2CA0AC094C4 /* TBWIFILinkTool-prefix.pch */,
-				A7BBDBECF316179AC9CDF65846DCD236 /* TBWIFILinkTool-umbrella.h */,
+				9D1916A96094BB8FEC9BE786ED9F66B7 /* EasyLink.h */,
+				8343572B4AB204E4AB7D0B93183ABEDC /* libEasyLink.a */,
+				564A67A11566E124F3EEF63EE230C4DC /* route.h */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TBWIFILinkTool";
+			name = EasyLink;
+			path = TBWIFILinkTool/Classes/EasyLink;
+			sourceTree = "<group>";
+		};
+		445145A8A5C846A62E55621C7D12116F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				039D20ACC69077CAF239F290091EED5A /* ESP_ByteUtil.h */,
+				7E6BE34EE91B69F620BD5C4A650B7310 /* ESP_ByteUtil.m */,
+				F8D568F6E807845B0D1F2B9831B4B6D8 /* ESP_CRC8.h */,
+				3940D3FB324A18F42A773FD82D4A59D6 /* ESP_CRC8.m */,
+				81ADA20E7C107A8E6BB56756C1CB3127 /* ESP_NetUtil.h */,
+				E97444ECC6FA8D51F6775A86E26CE52B /* ESP_NetUtil.m */,
+				624E7ADAE48F64A252F3EF8435FE2BBB /* ESP_WifiUtil.h */,
+				3B8F2A2B6746DD109872F5C75428479F /* ESP_WifiUtil.m */,
+				3B148225AA17378D13D71E41305D75A4 /* ESPAES.h */,
+				F7F7885A834CC580CA124F09085C0EA6 /* ESPAES.m */,
+				54FC60886DC1EE737916FEB808C3AA0A /* ESPVersionMacro.h */,
+			);
+			name = util;
+			path = util;
+			sourceTree = "<group>";
+		};
+		6FA0A16E7E1BB457B5FE47764C8CC800 /* udp */ = {
+			isa = PBXGroup;
+			children = (
+				3617BA5E3B632F4D23732127557AC9EF /* ESPUDPSocketClient.h */,
+				51E2D1658AA7FFB68E476747C59288A6 /* ESPUDPSocketClient.m */,
+				CC78175FED237B19424E53DF9A563A4F /* ESPUDPSocketServer.h */,
+				E48BE132D7490FC1DF2F6725DC735B8A /* ESPUDPSocketServer.m */,
+			);
+			name = udp;
+			path = udp;
 			sourceTree = "<group>";
 		};
 		894AE61FCC8C0856ED1A9E136144B3A2 /* Products */ = {
@@ -149,6 +261,28 @@
 				0DC72A062C45B42572DBE2D5DD9161BC /* TBWIFILinkTool.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		999EAFCD28085E621D8E835661F8E5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A144B97FACD595B101F649FF38FA788E /* TBWIFILinkTool */ = {
+			isa = PBXGroup;
+			children = (
+				4A5348ABA2DF5D461578E545413965F0 /* TBWIFILinkTool.h */,
+				B0B1C824FCD4172B910C7207678D956B /* TBWIFILinkTool.m */,
+				2E14F828535EA36CA015C3BB806C478E /* EasyLink */,
+				F3EE9A92E66BB101B620831A6BA19A62 /* ESPTouch */,
+				999EAFCD28085E621D8E835661F8E5A9 /* Frameworks */,
+				FE2E7F9B1921AAED0F458D3AD111641A /* Pod */,
+				E6FB4003CD4FEE54F28992F46EC0008D /* Support Files */,
+			);
+			name = TBWIFILinkTool;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		ADF74F9A994C00879A38DF2A0BD87501 /* Pods-TBWIFILinkTool_Tests */ = {
@@ -196,7 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1062FC94A0C76CC1166E30B735DC3500 /* Development Pods */,
+				080F3FC43BE1A66B179830162B60F33E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				894AE61FCC8C0856ED1A9E136144B3A2 /* Products */,
 				1AEEC1AA49EF37002BA54269653716C5 /* Targets Support Files */,
@@ -211,12 +345,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D430E9145EC05E27B5C44CC75F2177A8 /* Pod */ = {
+		DE907FAA215C32FB6057490BBB5B34A9 /* task */ = {
 			isa = PBXGroup;
 			children = (
-				CE442DF27A55D6650AEB6822FEE6F939 /* LICENSE */,
-				AD4CF323CB341AEFBCD38ADF3AC71AFA /* README.md */,
-				4B0281B6628C4168AC8899FE76DAE018 /* TBWIFILinkTool.podspec */,
+				C234482A87C348A8D6B871B96A65B08D /* ESPTouchResult.m */,
+				1DC6BEA6C7521FAB27AF974AC5203732 /* ESPTouchTask.m */,
+				BAF9FF425E2E829E8D58EFD311A6E707 /* ESPTouchTaskParameter.h */,
+				EFDEDDCA1447B4029CE1717A0B423D90 /* ESPTouchTaskParameter.m */,
+			);
+			name = task;
+			path = task;
+			sourceTree = "<group>";
+		};
+		E6FB4003CD4FEE54F28992F46EC0008D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF5ADFDA93CECF69E64EA523F632F4B /* TBWIFILinkTool.modulemap */,
+				BE6EAF0866997E452CBEEB358D682E8A /* TBWIFILinkTool.xcconfig */,
+				35D77A81A8819D1BF56181C813D4B089 /* TBWIFILinkTool-dummy.m */,
+				6780998846A1C54CFF3C354D85FCDCDB /* TBWIFILinkTool-Info.plist */,
+				B3E3458E6732E17E4566C03215D49670 /* TBWIFILinkTool-prefix.pch */,
+				7FA9EB3573AEC04F8FB6B2C7368D1BF3 /* TBWIFILinkTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TBWIFILinkTool";
+			sourceTree = "<group>";
+		};
+		F3EE9A92E66BB101B620831A6BA19A62 /* ESPTouch */ = {
+			isa = PBXGroup;
+			children = (
+				0810A1FFA6A64B37CDB9935ACF3C4AFA /* esptouch */,
+				26C46B09C963733750C961A2142947EC /* protocol */,
+				DE907FAA215C32FB6057490BBB5B34A9 /* task */,
+				6FA0A16E7E1BB457B5FE47764C8CC800 /* udp */,
+				445145A8A5C846A62E55621C7D12116F /* util */,
+			);
+			name = ESPTouch;
+			path = TBWIFILinkTool/Classes/ESPTouch;
+			sourceTree = "<group>";
+		};
+		FE2E7F9B1921AAED0F458D3AD111641A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB33A9AA8CBD86C04E04E54CA1225857 /* LICENSE */,
+				0FCA5D46D9F06C7BE7AB7E24FC6A37AF /* README.md */,
+				8BAA9B93AD2BD5FB9D79D8203E24DD09 /* TBWIFILinkTool.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -232,11 +405,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59A59AB29BCEE00958C4C245BD520A81 /* Headers */ = {
+		E9DFB24826020CF249ADD9D96478949A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57518B2103E89C87930C5476F7DB8A6C /* TBWIFILinkTool-umbrella.h in Headers */,
+				BF23E337D3E887A90A0ACCFB6CCDAD0C /* EasyLink.h in Headers */,
+				63D37F80783CAC5BB6B3775F957FB064 /* ESP_ByteUtil.h in Headers */,
+				F32B64EAC5CAFE4B5B4E01DE072747CA /* ESP_CRC8.h in Headers */,
+				C70785B9546716C686E02F2299ED2B73 /* ESP_NetUtil.h in Headers */,
+				0AD5429DDAF6B094C0065B6BE695CD55 /* ESP_WifiUtil.h in Headers */,
+				5E0EC15B764159348523FCA14256E466 /* ESPAES.h in Headers */,
+				928245696C0701698D4EA492DFF4FBF5 /* ESPDataCode.h in Headers */,
+				0B00E46A67B8320422A9BBFF0F05076F /* ESPDatumCode.h in Headers */,
+				39FB83FE4B96F00F538D717A547F5ECB /* ESPGuideCode.h in Headers */,
+				1E47E82AB4638D1DDD644780B3F60EED /* ESPTouchDelegate.h in Headers */,
+				B45D92A4D70744ACA32B54F565B417FA /* ESPTouchGenerator.h in Headers */,
+				6A838C96F74D483733E2AE5294BB188D /* ESPTouchResult.h in Headers */,
+				62783D82F3102B88DB397C5B1D31D6B0 /* ESPTouchTask.h in Headers */,
+				D12DBA24BCBFE8A367F11ADE8F6B4DDC /* ESPTouchTaskParameter.h in Headers */,
+				A661E03EA44175B8D0B9A364875CC9B0 /* ESPUDPSocketClient.h in Headers */,
+				100493799414F38DC4DF172842910CBA /* ESPUDPSocketServer.h in Headers */,
+				7551922A116D70C2DB3A15C454107C06 /* ESPVersionMacro.h in Headers */,
+				3DA637307B24537E1C7FCE276118EB09 /* route.h in Headers */,
+				1D28326B7DFDB60AF164CEA7DF7496DE /* TBWIFILinkTool-umbrella.h in Headers */,
+				DADC64D0F5C0DBB3F0EE32A4F38D65CE /* TBWIFILinkTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +464,12 @@
 		};
 		3CA9808D61ACF488BD0CA482E28DF3D4 /* TBWIFILinkTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3CFB272AC58A78A9DD544E0D6221FDE /* Build configuration list for PBXNativeTarget "TBWIFILinkTool" */;
+			buildConfigurationList = 65A61173A515E884CE160814C634DE84 /* Build configuration list for PBXNativeTarget "TBWIFILinkTool" */;
 			buildPhases = (
-				59A59AB29BCEE00958C4C245BD520A81 /* Headers */,
-				80CC2B4C8A49EB9F9477BB33D936A8B2 /* Sources */,
-				55C3C70E49F6D655C3D5BCFA09F5FF30 /* Frameworks */,
-				5E2E77888912A896009BA9A4467BCC74 /* Resources */,
+				E9DFB24826020CF249ADD9D96478949A /* Headers */,
+				F99B19E69D8A4CCB3D5E4337A0104811 /* Sources */,
+				083D4FD831CCE79C66D1B21CAFF17E7E /* Frameworks */,
+				95F2D315B8250ED29020A26A92D85AEA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,14 +528,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5E2E77888912A896009BA9A4467BCC74 /* Resources */ = {
+		65D709C4D4E2D6A68E8847CAB592DC9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65D709C4D4E2D6A68E8847CAB592DC9C /* Resources */ = {
+		95F2D315B8250ED29020A26A92D85AEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,15 +552,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80CC2B4C8A49EB9F9477BB33D936A8B2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEAC73A0F7B041AD0F071DBDF637703D /* ReplaceMe.m in Sources */,
-				FA3F3106B20F0C672B815427105864CF /* TBWIFILinkTool-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A4436469C1907FBA2F024FE7B89C611B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +565,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEBB2285C808EBD3CCBB841637DEEAD /* Pods-TBWIFILinkTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99B19E69D8A4CCB3D5E4337A0104811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91127D6D36D1F35ACFEA461907B655B /* ESP_ByteUtil.m in Sources */,
+				B4F3BA600A5A1C41457342505A4ADE2E /* ESP_CRC8.m in Sources */,
+				1A74AF58EFAB8B7EC135E0355A1A82B7 /* ESP_NetUtil.m in Sources */,
+				0BC822438B1348CF792151F34F0CB0E6 /* ESP_WifiUtil.m in Sources */,
+				015C85E7A2BDF0469567A12E871B90DF /* ESPAES.m in Sources */,
+				8F28D97ECA1E3A7275AE37BDBEFE650A /* ESPDataCode.m in Sources */,
+				15AD9371B09B29AEC58C3206D7041FC3 /* ESPDatumCode.m in Sources */,
+				E6815BADE36B775911B2BD8F594990F0 /* ESPGuideCode.m in Sources */,
+				AC05D9FD2F25C1C3F5A20C0AE66E5A53 /* ESPTouchGenerator.m in Sources */,
+				EC83BF3D86CAF319A7D199EF41A918C8 /* ESPTouchResult.m in Sources */,
+				442DEF7DAD8570C5B026CAE594AEC056 /* ESPTouchTask.m in Sources */,
+				09BB72F8D3828DD306E1E9546E574450 /* ESPTouchTaskParameter.m in Sources */,
+				2D60FC24E602FC8CCC63509CEF837448 /* ESPUDPSocketClient.m in Sources */,
+				F5C2ED4A2133F5AF3DC0EDD811A346D3 /* ESPUDPSocketServer.m in Sources */,
+				C106A62F99A59D7ABF99CE3C3ADE9AAB /* libEasyLink.a in Sources */,
+				91DE0387CE88B5253056632C4D6A2934 /* TBWIFILinkTool-dummy.m in Sources */,
+				18BB639BADA88A6482FCBD0D9D77197F /* TBWIFILinkTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +697,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -523,38 +731,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		593A99EB494C0ED2B1A22EAAEF9C9344 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8644760D4F2F0F95CBAA41895F81FC46 /* TBWIFILinkTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool.modulemap";
-				PRODUCT_MODULE_NAME = TBWIFILinkTool;
-				PRODUCT_NAME = TBWIFILinkTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -626,9 +802,9 @@
 			};
 			name = Debug;
 		};
-		C0559A626FFFBCBABD10D4FEEE9559B6 /* Debug */ = {
+		836A10A6746F228D39BFD7D5E6AAC054 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8644760D4F2F0F95CBAA41895F81FC46 /* TBWIFILinkTool.xcconfig */;
+			baseConfigurationReference = BE6EAF0866997E452CBEEB358D682E8A /* TBWIFILinkTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -652,10 +828,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C55D63DBF90F6F0010A7B42F364DCFB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -723,6 +900,37 @@
 			};
 			name = Debug;
 		};
+		F981851A72D6838AAB9919D4B14CFB41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6EAF0866997E452CBEEB358D682E8A /* TBWIFILinkTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBWIFILinkTool/TBWIFILinkTool.modulemap";
+				PRODUCT_MODULE_NAME = TBWIFILinkTool;
+				PRODUCT_NAME = TBWIFILinkTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -731,6 +939,15 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A61173A515E884CE160814C634DE84 /* Build configuration list for PBXNativeTarget "TBWIFILinkTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F981851A72D6838AAB9919D4B14CFB41 /* Debug */,
+				836A10A6746F228D39BFD7D5E6AAC054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,15 +966,6 @@
 			buildConfigurations = (
 				C55D63DBF90F6F0010A7B42F364DCFB9 /* Debug */,
 				0B18265FD1613659B6F4C81AA6DF1858 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3CFB272AC58A78A9DD544E0D6221FDE /* Build configuration list for PBXNativeTarget "TBWIFILinkTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0559A626FFFBCBABD10D4FEEE9559B6 /* Debug */,
-				593A99EB494C0ED2B1A22EAAEF9C9344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

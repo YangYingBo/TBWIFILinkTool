@@ -1,5 +1,5 @@
 PODS:
-  - TBWIFILinkTool (0.1.0)
+  - TBWIFILinkTool (0.1.4)
 
 DEPENDENCIES:
   - TBWIFILinkTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TBWIFILinkTool: 5105edb5f0a396e693851148353468782fce4177
+  TBWIFILinkTool: 5a0a32cc14701714a7ad0c454936dc8bd8900fc3
 
 PODFILE CHECKSUM: de870c07bcbd5f6243eb9ae029bc1a497a64de11
 

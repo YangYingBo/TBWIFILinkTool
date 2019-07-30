@@ -1,8 +1,8 @@
 {
   "name": "TBWIFILinkTool",
-  "version": "0.1.0",
-  "summary": "A short description of TBWIFILinkTool.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.4",
+  "summary": "TBWIFILinkTool 给WiFi模块配置WiFi的工具类.",
+  "description": "TODO: 使用EasyLink和ESPTouch给不同的WiFi模块配置WiFi的工具类.",
   "homepage": "https://github.com/YangYingBo/TBWIFILinkTool",
   "license": {
     "type": "MIT",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/YangYingBo/TBWIFILinkTool.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TBWIFILinkTool/Classes/**/*"
+  "source_files": "TBWIFILinkTool/Classes/**/*",
+  "vendored_libraries": "TBWIFILinkTool/Classes/**/*.a"
 }
