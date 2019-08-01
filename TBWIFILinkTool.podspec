@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TBWIFILinkTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TBWIFILinkTool 给WiFi模块配置WiFi的工具类.'
 
 # This description is used to generate tags and improve search results.
@@ -45,4 +45,13 @@ TODO: 使用EasyLink和ESPTouch给不同的WiFi模块配置WiFi的工具类.
   # 配置需要引用的非系统框架
   # s.vendored_frameworks：
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'EasyLink' do |ss|
+      ss.source_files = 'TBWIFILinkTool/Classes/EasyLink/*.{h,m}'
+  end
+  
+  s.subspec 'ESPTouch' do |ss|
+      ss.source_files = 'TBWIFILinkTool/Classes/ESPTouch/*.{h,m}'
+  end
+  
 end
