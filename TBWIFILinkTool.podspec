@@ -51,7 +51,8 @@ TODO: 使用EasyLink和ESPTouch给不同的WiFi模块配置WiFi的工具类.
   end
   
   s.subspec 'ESPTouch' do |ss|
-      ss.source_files = 'TBWIFILinkTool/Classes/ESPTouch/*.{h,m}'
+      ss.source_files = 'TBWIFILinkTool/Classes/ESPTouch/**/*.{h,m}'
+      
   end
   
 end
